@@ -74,7 +74,8 @@ public static void main(String[] args) {
     System.out.println();
     d.close();
     if(d1>=0&&d2>=0&&d2<=12&&d3>=0){
-    new day(d1,d2,d3); }
+       new day(d1,d2,d3); 
+      }
     else System.out.println("Error in data");
       }
 }
